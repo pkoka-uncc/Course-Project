@@ -11,7 +11,9 @@
 **Source:** By Nathan Lagua Link: https://www.kaggle.com/datasets/nathanlauga/nba-games 
 **Size:** All games from 2004 to 2020 (about 60000 games)
 
-## Key Features/Fields: Game Stats (Points, Field Goal Percentage, Free Throw Percentage, Rebounds, Assists, Home Wins, Away Wins), Team Stats (Wins, Losses, Win Percentage)
+## Key Features/Fields: 
+**Game Stats:** (Points, Field Goal Percentage, Free Throw Percentage, Rebounds, Assists, Home Wins, Away Wins)
+**Team Stats:** (Wins, Losses, Win Percentage)
 
 ## Componenets Planned: 
 
