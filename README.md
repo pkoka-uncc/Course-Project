@@ -6,7 +6,7 @@
 NBA Game Outcome Analysis with Apache Spark
 
 ## Problem Statement: 
-NBA game data creates an opportunity to look at performance trends, simulate real-time games and build predictive models for game outcomes. This project will design and implement a big data analytics pipeline using Apache Spark by processing, streaming, and modeling NBA statistics; demonstrating use of structured APIs, streaming, and MLLib working together on real data.
+Right now, the NBA Finals is happening. People are excited from all across the U.S. to support their favorite teams. People are stressed out about, but what if they were able to predict the games before they even happened? With NBA game data creates the perfect opportunity to look at performance trends, simulate real-time games and build predictive models for game outcomes. This project will design and implement a big data analytics pipeline using Apache Spark by processing, streaming, and modeling NBA statistics; demonstrating use of structured APIs, streaming, and MLLib working together on real data.
 
 ## Dataset: 
 - **Name:** NBA Games Data 
