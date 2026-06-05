@@ -6,7 +6,10 @@
 
 ## Problem Statement: NBA game data creates an opportunity to look at performance trends, simulate real-time games and build predictive models for game outcomes. This project will design and implement a big data analytics pipeline using Apache Spark by processing, streaming, and modeling NBA statistics; demonstrating use of structured APIs, streaming, and MLLib working together on real data.
 
-## Dataset: Name: NBA Games Data Source: By Nathan Lagua Link: https://www.kaggle.com/datasets/nathanlauga/nba-games Size: All games from 2004 to 2020 (about 60000 games)
+## Dataset: 
+Name: NBA Games Data 
+Source: By Nathan Lagua Link: https://www.kaggle.com/datasets/nathanlauga/nba-games 
+Size: All games from 2004 to 2020 (about 60000 games)
 
 ## Key Features/Fields: Game Stats (Points, Field Goal Percentage, Free Throw Percentage, Rebounds, Assists, Home Wins, Away Wins), Team Stats (Wins, Losses, Win Percentage)
 
