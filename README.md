@@ -31,16 +31,36 @@ Train a binary classification model (Logistic Regression) to predict wins/losses
 
 ### Analytical Questions: 
 
-Which teams have had the strong performance trend the last 5 years? (API)
+Which teams have had the strong performance trend the last 5 years? (API - Spark DataFrames and Spark SQL)
 
-Can we detect any momentum shifts in real time? (Streaming)
+Can we detect any momentum shifts in real time? (Streaming - Hadoop)
 
-Can we predict the winner of a game based on pregame stats? (ML Model)
+Can we predict the winner of a game based on pregame stats? (ML Model - Logistic Regression)
 
 ### How to run: 
+Note: Make sure all directories are changed to where your project is stored.
 To run component Structured APIs:  python batch.py > Batch_Output.txt   
-To run component Structured Streaming: 
+To run component Structured Streaming (Won't work without Hadoop): 
+Here is a guide on how to set it up through Windows https://gist.github.com/vorpal56/5e2b67b6be3a827b85ac82a63a5b3b2e.
+Make sure to set your environmental variables through Hadoop in Powershell (For example, PS C:\Users\kokap\Downloads\Final Project> $env:HADOOP_HOME = "C:\hadoop"
+>> $env:PATH = "$env:PATH;C:\hadoop\bin"). 
+First: Run the consume, python streaming.py --mode consume > Streaming_Output.txt
+Second: Run the produce, python streaming.py --mode produce --data-dir "C:\Users\kokap\Downloads\Final Project"  
+To run component MLib: python ml.py > Machine_Learning_Output.txt
 
-### Results: 
+Code is also commented with what functions do so that may also help you when it comes to running.
+
+## Results: 
+
+### Q1 Analytical Question (Contained in Batch_Output.txt):
+The Miluwake Bucks (Avg Win Margin: 0.663%, Avg Pts Win Margin: 5.79pts), Philadelphia 76ers (Avg Win Margin: 0.622%, Avg Pts Win Margin: 3.52pts), and Denver Nuggets(Avg Win Margin: 0.606%, Avg Pts Win Margin: 2.35pts) are the teams with the strongest performance trends in the last 5 years. 
+
+Another analytical question I created: Does 3 point % impact wins?
+Yes, indeed they do... if there were 3
+
+### Q2 Analytical Question (Contained in Streaming_Output.txt):
+Yes we can detect momentum shifts when it comes to teams in real time. In the game we tracked, the home team had the momentum by outscoring the away team each quarter. If the opposite happens, the away team will have the momentum for the quarter (for example in Batch 2).
+
+### Q3 Analytical Question (Contained in Machine_Learning_Output.txt):
 
 
