@@ -27,7 +27,7 @@ Use Spark DataFrames and Spark SQL to perform batch analysis (apply same rules t
 Simulate a live NBA game using Spark Structured Streaming. Can process incoming game events close to real time, tracking score and momentum shifts. 
 
 ### 3. MLLib 
-Train a binary classification model (Linear regression) to predict wins/losses based on features such as home wins, away wins, recent win streak, average pts score/
+Train a binary classification model (Logistic Regression) to predict wins/losses based on features such as home wins, away wins, recent win streak, average pts scored.
 
 ### Analytical Questions: 
 
@@ -36,4 +36,11 @@ Which teams have had the strong performance trend the last 5 years? (API)
 Can we detect any momentum shifts in real time? (Streaming)
 
 Can we predict the winner of a game based on pregame stats? (ML Model)
+
+### How to run: 
+To run component Structured APIs:  python batch.py > Batch_Output.txt   
+To run component Structured Streaming: 
+
+### Results: 
+
 
