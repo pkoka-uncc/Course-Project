@@ -60,7 +60,7 @@ Make sure  environment variables in Bash:
 $env:HADOOP_HOME = "C:\hadoop"
 $env:PATH = "$env:PATH;C:\hadoop\bin"
 ```
-Do bash run.sh in your terminal.
+Do bash run.sh in your bash terminal.
  
 ## Results
  
