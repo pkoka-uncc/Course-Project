@@ -51,40 +51,14 @@ Trains a binary Logistic Regression classifier to predict wins/losses based on f
 ## How to Run
  
 > **Note:** Make sure all directories are changed to where your project is stored. Use `cd` to navigate to the right directory.
- 
-### Component 1 — Structured APIs
-```bash
-python Components/batch.py --data-dir "path/to/csvs" > "Outputs for Components/Batch_Output.txt"
-```
- 
-### Component 2 — Structured Streaming
- 
 > **Note:** Requires Hadoop on Windows. Setup guide: https://gist.github.com/vorpal56/5e2b67b6be3a827b85ac82a63a5b3b2e
  
-Set environment variables in PowerShell:
+Make sure  environment variables in Bash:
 ```bash
 $env:HADOOP_HOME = "C:\hadoop"
 $env:PATH = "$env:PATH;C:\hadoop\bin"
 ```
- 
-Run the consumer first (Terminal 1):
-```bash
-python Components/streaming.py --mode consume > "Outputs for Components/Streaming_Output.txt"
-```
- 
-Then run the producer (Terminal 2):
-```bash
-python Components/streaming.py --mode produce --data-dir "path/to/csvs"
-```
- 
-### Component 3 — MLlib
-```bash
-python Components/ml.py --data-dir "path/to/csvs" > "Outputs for Components/Machine_Learning_Output.txt"
-```
- 
-> All component files are thoroughly commented explaining what each function does.
- 
----
+Do bash run.sh in your terminal.
  
 ## Results
  
