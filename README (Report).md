@@ -49,8 +49,10 @@ Trains a binary Logistic Regression classifier to predict wins/losses based on f
 ---
  
 ## How to Run
+git clone https://github.com/pkoka-uncc/Course-Project.git
  
 > **Note:** Make sure all directories are changed to where your project is stored. Use `cd` to navigate to the right directory.
+
 > **Note:** Requires Hadoop on Windows. Setup guide: https://gist.github.com/vorpal56/5e2b67b6be3a827b85ac82a63a5b3b2e
  
 Make sure  environment variables in Bash:
