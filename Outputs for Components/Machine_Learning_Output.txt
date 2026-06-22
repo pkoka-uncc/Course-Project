@@ -37,18 +37,18 @@ Confusion Matrix
 +--------------+----------+-----+
 
 Feature coefficients
-FG_PCT_away            -1.4327499458375432
-FG_PCT_home            +1.391138116999025
-REB_away               -0.6235835668166401
-REB_home               +0.591921406948027
-FG3_PCT_home           +0.5146439383760156
-FG3_PCT_away           -0.49757424894579855
-FT_PCT_home            +0.42545245929818093
-FT_PCT_away            -0.4175793189923284
-AST_home               +0.41150426440617505
-AST_away               -0.3821948681437488
-PTS_away_roll5         -0.2509696472885987
-PTS_home_roll5         +0.24958520405914403
+FG_PCT_away            -1.4327499458374813
+FG_PCT_home            +1.391138116999072
+REB_away               -0.6235835668166697
+REB_home               +0.5919214069480565
+FG3_PCT_home           +0.5146439383760018
+FG3_PCT_away           -0.4975742489457276
+FT_PCT_home            +0.42545245929828107
+FT_PCT_away            -0.4175793189923729
+AST_home               +0.4115042644061638
+AST_away               -0.38219486814378684
+PTS_away_roll5         -0.2509696472885715
+PTS_home_roll5         +0.2495852040590676
 Sample Predictions
 +----------+------+---------+
 | GAME_DATE|ACTUAL|PREDICTED|
@@ -65,7 +65,6 @@ Sample Predictions
 |2021-11-09|   1.0|      1.0|
 +----------+------+---------+
 only showing top 10 rows
-
-SUCCESS: The process with PID 3136 (child process of PID 27032) has been terminated.
-SUCCESS: The process with PID 27032 (child process of PID 33012) has been terminated.
-SUCCESS: The process with PID 33012 (child process of PID 10424) has been terminated.
+SUCCESS: The process with PID 20888 (child process of PID 16916) has been terminated.
+SUCCESS: The process with PID 16916 (child process of PID 23656) has been terminated.
+SUCCESS: The process with PID 23656 (child process of PID 3856) has been terminated.

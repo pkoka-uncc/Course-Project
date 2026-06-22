@@ -174,7 +174,7 @@ def consume():
     print(f"\n Streaming from {STREAM_DIR} - Waiting for events...")
     print("Run the producer in another terminal:")
     print(" python component2_streaming --mode produce --data-dir /path/to/csvs\n")
- 
+
     #Await Termination
     spark.streams.awaitAnyTermination()
  

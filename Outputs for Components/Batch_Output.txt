@@ -21,7 +21,6 @@ Q1 - Strongest team performance (last 5 seasons)
 |Indiana Pacers       |0.484      |0.03      |
 +---------------------+-----------+----------+
 only showing top 15 rows
-
 +--------------------+-----------+----------+--------------+
 |TEAM_NAME           |AVG_WIN_PCT|AVG_MARGIN|SEASONS_PLAYED|
 +--------------------+-----------+----------+--------------+
@@ -112,6 +111,6 @@ Q3 — Average point differential: home wins vs away wins
 |2022  |12.08          |9.87           |
 +------+---------------+---------------+
 
-SUCCESS: The process with PID 26204 (child process of PID 1876) has been terminated.
-SUCCESS: The process with PID 1876 (child process of PID 33408) has been terminated.
-SUCCESS: The process with PID 33408 (child process of PID 29864) has been terminated.
+SUCCESS: The process with PID 21508 (child process of PID 15032) has been terminated.
+SUCCESS: The process with PID 15032 (child process of PID 28048) has been terminated.
+SUCCESS: The process with PID 28048 (child process of PID 9960) has been terminated.
